@@ -1,0 +1,36 @@
+:root {
+    /*Colores*/
+    --primario: #0066B1;
+    --secundario: #2E318D;
+    --azulClaro: #007BC4;
+}
+
+.header{
+    background-color: cadetblue;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+#sidebar{
+float: left;
+width: 15%;
+}
+
+#sidebar a {
+text-transform: uppercase;
+text-decoration: none;
+padding: 10px 5px;
+display: block;
+}
+
+#sidebar a:hover{
+background-color:#2E318D;
+color: white;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
