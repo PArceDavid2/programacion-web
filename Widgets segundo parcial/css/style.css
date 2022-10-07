@@ -1,0 +1,133 @@
+:root {
+    /*Colores*/
+    --primario: #0066B1;
+    --secundario: #2E318D;
+    --azulClaro: #007BC4;
+    --blanco: #ffffff;
+    --negro: #000000;
+
+    --fuente: 'Work Sans', sans-serif;
+}
+
+body {
+    font-family: var(--fuente);
+}
+
+/* Globales */
+
+html{
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+*,*::before,*::after {
+    box-sizing: inherit;
+}
+h2 {
+    text-align: center;
+    font-size: 2rem;
+    color: var(--secundario);
+    margin-bottom: 0;
+}
+
+h3 {
+    font-size: 1.4rem;
+}
+
+img {
+    max-width: 100%;
+}
+
+a {
+    font-size: 2rem;
+    text-decoration: none;
+}
+p {
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+/* header */
+
+.header {
+    background-color: var(--blanco);
+    display: flex;
+    justify-content: center;
+}
+
+.logo {
+    width: 40rem;
+    height: 10rem;
+}
+
+/* navegacio */
+
+.navegacion {
+    margin-top: 0;
+    background-color: var(--azulClaro);
+    padding: 1rem;
+    display: flex;
+    justify-content: space-around;
+    ;
+}
+
+.navegacion a {
+    color: var(--blanco);
+}
+
+/* seccion lo mas vendido */
+
+@media(min-width: 768px) {
+    .productos {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+@media(max-width: 768px) {
+    .productos {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+.producto {
+    text-align: center;
+    padding: 1rem;
+}
+
+.producto_boton {
+    background-color: var(--azulClaro);
+    color: var(--blanco);
+    font-weight: 800;
+    padding: 1rem;
+}
+
+/*footer */
+.footer{
+    background-color: var(--secundario);
+    color: var(--blanco);
+    padding:3rem;
+    font-size: 1.5rem;
+}
+
+.producto_imagen1{
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+}
+.producto_imagen2{
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 16%;
+    justify-content: center;
+}
+.producto_imagen3{
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25%;
+    justify-content: center;
+}
