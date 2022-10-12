@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+
+    <title>T E S T</title>
+</head>
+
+<body>
+    <script src="scrip.js"></script>
+    <input type="button" value="Imprime esta página" onclick="window.print()">
+
+    <header>
+        <div class="logo">
+            <img src="imagen1.jpg" alt="Imagen de la empresa">
+            <h2 class="Nombre empresa">Mary key</h2>
+        </div>
+        <nav>
+            <a href="" class="nav-link">Inicio</a>
+            <a href="" class="nav-link">Sobre Nosotros</a>
+            <a href="" class="nav-link">Contacto</a>
+        </nav>
+    </header>
+    <h2>T E S T</h2>
+    <hr>
+
+    <form style="font:normal 16px sans-serif">
+
+        <p>¿Que vende marykey?... </p>
+        <p onclick="this.style.color='#00FF00'"><input type="radio" name="pregunta1" id="p11">Cosmeticos de belleza.
+        </p>
+        <p onclick="this.style.color='#FF0000'"><input type="radio" name="pregunta1" id="p12">Almohadas.
+        </p>
+        <p onclick="this.style.color='#FF0000'"><input type="radio" name="pregunta1" id="p13">Computadores.
+        </p>
+        <p onclick="this.style.color='#FF0000'"><input type="radio" name="pregunta1" id="p14">No vende nada solo fue
+            creado para esta practica.
+        </p>
+        <br>
+        <p>¿Cuales son los colores que mas predominan en su sitio web?... </p>
+        <p onclick="this.style.color='#FF0000'"><input type="radio" name="pregunta2" id="p21">Azul principalmente.
+        </p>
+        <p onclick="this.style.color='#00FF00'"><input type="radio" name="pregunta2" id="p22">Rosa.
+        </p>
+        <p onclick="this.style.color='#FF0000'"><input type="radio" name="pregunta2" id="p23">Amarillo y verde.
+        </p>
+        <p onclick="this.style.color='#FF0000'"><input type="radio" name="pregunta2" id="p24">colores cafeses.
+        </p>
+        <br>
+        <p>¿Atraves de donde vende mayormente sus productos esta empresa?... </p>
+        <p onclick="this.style.color='#FF0000'"><input type="radio" name="pregunta3" id="p31">Tiendas en Linea.
+        </p>
+        <p onclick="this.style.color='#FF0000'"><input type="radio" name="pregunta3" id="p32">En linea.
+        </p>
+        <p onclick="this.style.color='#00FF00'"><input type="radio" name="pregunta3" id="p33">Catalogos.
+        </p>
+        <p onclick="this.style.color='#FF0000'"><input type="radio" name="pregunta3" id="p34">Ofertas en tianguis.
+        </p>
+        <br>
+        <p>¿De que pais es marykey? </p>
+        <p onclick="this.style.color='#FF0000'"><input type="radio" name="pregunta4" id="p41">Guatemala.
+        </p>
+        <p onclick="this.style.color='#FF0000'"><input type="radio" name="pregunta4" id="p42">Colombia.
+        </p>
+        <p onclick="this.style.color='#FF0000'"><input type="radio" name="pregunta4" id="p43">Mexico.
+        </p>
+        <p onclick="this.style.color='#00FF00'"><input type="radio" name="pregunta4" id="p44">Estados Unidos
+        </p>
+        <br>
+        <p>¿Cual es el publico objetivo de esta empresa? </p>
+        <p onclick="this.style.color='#00FF00'"><input type="radio" name="pregunta5" id="p51">Mujeres.
+        </p>
+        <p onclick="this.style.color='#FF0000'"><input type="radio" name="pregunta5" id="p52">Hombres.
+        </p>
+        <p onclick="this.style.color='#FF0000'"><input type="radio" name="pregunta5" id="p53">Alienigenas.
+        </p>
+        <p onclick="this.style.color='#FF0000'"><input type="radio" name="pregunta5" id="p54">Dioses
+        </p>
+        <br>
+
+        <hr>
+        <p><input type="button" value="Resultado del test" onclick="resultado()" /></p>
+        <p><input type="button" value="Reiniciar test" onclick="reiniciar()"/></p>
+    </form>
+</body>
+
+</html>
